@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/16a569a074.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png" alt=""></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="course.html">Course</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                 <li><a href="">Contact</a></li>
+             </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+<h1>Contact Us</h1>
+    </section>
+
+
+    <!----- contact us ----->
+  
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d997.1983964736025!2d103.7719623!3d1.2986019!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6c679bf9b1c7067!2zMcKwMTcnNTUuMyJOIDEwM8KwNDYnMTguNCJF!5e0!3m2!1sen!2sng!4v1646287015364!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </section>
+    
+     <section class="contact-us">
+       <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>XYZ Road, ABC Buuilding</h5>
+                <p>Anambra State Nigeria.</p>
+            </span>
+        </div>
+        <div>
+        <i class="fa fa-phone"></i>
+            <span>
+                <h5>+234 8101345716</h5>
+                <p>Monday to saturday 10am to 6 pm</p>
+            </span>
+        </div>
+        <div>
+        <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>info@vikkyDcoder.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+       </div>
+       <div class="contact-col">
+           <form>
+               <input type="text" placeholder="Enter your Name" required>
+               <input type="text" placeholder="Enter your email" required>
+               <input type="text" placeholder="Enter your subject" required>
+               <textarea rows="8" placeholder="message"></textarea>
+               <button type="submit" class="hero-btn red-btn">Send Message</button>
+           </form>
+       </div>
+     </section>
+            
+<!------- footer ------->
+ 
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias culpa a eaque minus recusandae asperiores blanditiis nostrum commodi rem <br> ipsam rerum aperiam tenetur, quasi repudiandae accusantium eligendi deserunt? Quasi, quaerat!</p>
+   <div class="icon">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+   </div>
+   <p>Made with  <i class="fa fa-heart-o"></i> by easy Vikky D coder(Vtech) </p>
+</section>
+
+
+
+
+<!--------javascript for Togle Menu------>
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
